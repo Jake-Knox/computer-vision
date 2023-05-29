@@ -1,0 +1,22 @@
+
+
+.hidden {
+    display: none;
+}
+
+p{
+    position: absolute;
+    z-index: 1;
+
+    color: yellow;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+}
+
+.highlighter{
+    position: absolute;
+    z-index: 2;
+    border: 2px solid yellow;
+    background: rgba(75, 95, 182, 0.2);
+}
